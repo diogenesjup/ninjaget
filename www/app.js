@@ -1,5 +1,5 @@
 var app = new App(1, 
-				 "SPZ SERVIÇOS", 
+				 "Ninja Get", 
 				 "1.0.0", 
 				 "HIBRIDO",
 				 "PRODUCAO",

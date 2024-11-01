@@ -23,14 +23,14 @@ class App {
         }
         if(ambiente=="PRODUCAO"){
 
-            this.urlDom = "https://servidorseguro.cloud/spz-servicos/app/www/";
-            this.urlApi = "https://servidorseguro.cloud/spz-servicos/apiservicekeys/";
-            this.urlApiAjax = "https://servidorseguro.cloud/spz-servicos/wp-admin/";
-            this.urlCdn = "https://servidorseguro.cloud/spz-servicos/cdn/";
+            this.urlDom = "https://servidorseguro.cloud/ninjaget/app/www/";
+            this.urlApi = "https://servidorseguro.cloud/ninjaget/apiservicekeys/";
+            this.urlApiAjax = "https://servidorseguro.cloud/ninjaget/wp-admin/";
+            this.urlCdn = "https://servidorseguro.cloud/ninjaget/cdn/";
 
         }
 
-        this.urlApiPagto = "https://servidorseguro.cloud/spz-servicos/pay/";
+        this.urlApiPagto = "https://servidorseguro.cloud/ninjaget/pay/";
 
         this.token = token;
         this.tokenSms = tokenSms;
@@ -517,7 +517,7 @@ filtrotabela(){
         
         }else{
 
-            confirmacao("Tem certeza que deseja desbloquear esse anúncio?",`Será debitado um valor de ${valorAnuncio} Keys do seu saldo <b>SPZ SERVIÇOS</b>`,`app.views.viewDetalheAnuncio(${anuncio},5)`,"Desbloquear");
+            confirmacao("Tem certeza que deseja desbloquear esse anúncio?",`Será debitado um valor de ${valorAnuncio} Keys do seu saldo <b>NINJA GET</b>`,`app.views.viewDetalheAnuncio(${anuncio},5)`,"Desbloquear");
 
         }
 

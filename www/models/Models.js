@@ -1729,7 +1729,7 @@ selecaoPlanosAnunciosComChaves(id_anuncio, pacoteEscolhido){
     
     }else{
 
-        confirmacao("Tem certeza que deseja promover esse anúncio?",`Será debitado um valor de <b>${precoPlano} Keys</b> do seu saldo <b>SPZ SERVIÇOS</b>`,`app.models.promoverAnuncioComChaves(${precoPlano})`,"Promover");
+        confirmacao("Tem certeza que deseja promover esse anúncio?",`Será debitado um valor de <b>${precoPlano} Keys</b> do seu saldo <b>NINJA GET</b>`,`app.models.promoverAnuncioComChaves(${precoPlano})`,"Promover");
 
     }
      

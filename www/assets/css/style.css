@@ -93,13 +93,13 @@ label{
     border-radius: 10px;
     outline: none !important;
     font-family: 'Barlow', sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     height: 45px;
     padding-top: 2px;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
-    background: #ffff00 !important;
-    border-color: #ffff00 !important;
+    background: #22b573 !important;
+    border-color: #22b573 !important;
 }
 
 .btn-default,
@@ -143,7 +143,7 @@ header .logo{
 header .logo img{
   max-width: 100%;
   height: auto;
-  width: 213px;
+  width: 155px;
 }
 
 header .menu-bar-toggle{
@@ -213,14 +213,14 @@ footer .menu-2 img{
   display: block;
     margin-left: auto;
     /* margin-right: auto; */
-    margin-top: -40px;
+    margin-top: -58px;
     margin-bottom: -3px;
-    width: 100px;
+    width: 72px;
     max-width: 100px;
     left: 50%;
     height: auto;
     position: absolute;
-    margin-left: -50px;
+    margin-left: -36px;
     top: 0;
 }
 
