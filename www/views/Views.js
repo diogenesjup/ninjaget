@@ -850,6 +850,17 @@ class Views{
                        <small>Novos orçamentos da rede <br>Ninja Get:</small>
                      </h2>
 
+                     <div class="filtro-categorias">
+
+                        <label class="switch">
+                           <input type="checkbox" id="toggleSwitch" onchange="filtrarCategorias();">
+                           <span class="slider round"></span>
+                        </label> 
+
+                        Exibir apenas orçamentos das minhas categorias
+
+                     </div>
+
                      <div class="loop-novos-servicos" id="listaDeOrcamentos">
 
                             <p style="text-align:center;">
@@ -1537,7 +1548,7 @@ class Views{
                                         >${payload}</textarea>
                                     </div>
                                     <p style="text-align:center">
-                                       <a href="" onclick="copiarCodigoPix()" style="color: #666;text-decoration: underline;display: block;padding-top: 12px;" title="Copiar código PIX">
+                                       <a href="javascript:void(0)" onclick="copiarCodigoPix()" style="color: #666;text-decoration: underline;display: block;padding-top: 12px;" title="Copiar código PIX">
                                           Copiar código PIX
                                        </a>
                                     </p>
@@ -2609,8 +2620,8 @@ class Views{
                      </form>
 
                      <div class="form-group link-apoio text-center" style="padding-top:13px;">
-                        <a href="javascript:void(0)" title="Versão 1.0.2" style="color:#747474;text-decoration:none !important;font-size:13px;">
-                              Versão 1.0.2
+                        <a href="javascript:void(0)" title="Versão 1.0.3" style="color:#747474;text-decoration:none !important;font-size:13px;">
+                              Versão 1.0.3
                         </a>
                      </div>
                      
