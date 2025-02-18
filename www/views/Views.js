@@ -2621,7 +2621,7 @@ class Views{
 
                      <div class="form-group link-apoio text-center" style="padding-top:13px;">
                         <a href="javascript:void(0)" title="Versão 1.0.3" style="color:#747474;text-decoration:none !important;font-size:13px;">
-                              Versão 1.0.3
+                              Versão 1.0.4
                         </a>
                      </div>
                      

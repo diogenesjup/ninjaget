@@ -23,14 +23,14 @@ class App {
         }
         if(ambiente=="PRODUCAO"){
 
-            this.urlDom = "https://servidorseguro.cloud/ninjaget/app/www/";
-            this.urlApi = "https://servidorseguro.cloud/ninjaget/apiservicekeys/";
-            this.urlApiAjax = "https://servidorseguro.cloud/ninjaget/wp-admin/";
-            this.urlCdn = "https://servidorseguro.cloud/ninjaget/cdn/";
+            this.urlDom = "https://ninjaget.com.br/app/www/";
+            this.urlApi = "https://ninjaget.com.br/apiservicekeys/";
+            this.urlApiAjax = "https://ninjaget.com.br/wp-admin/";
+            this.urlCdn = "https://ninjaget.com.br/cdn/";
 
         }
 
-        this.urlApiPagto = "https://servidorseguro.cloud/ninjaget/pay/";
+        this.urlApiPagto = "https://ninjaget.com.br/pay/";
 
         this.token = token;
         this.tokenSms = tokenSms;
