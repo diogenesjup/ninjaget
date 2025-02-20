@@ -1094,7 +1094,7 @@ orcamentosDisponiveis(){
 
                                      <div class="footer-autor">
                                           <a href="javascript:void(0)" onclick="app.desbloqAnuncio(${n.id},${n.valor_chaves_para_desbloqueio},${n.nome_categoria});" title="DESBLOQUEAR" class="btn btn-primary">
-                                              DESBLOQUEAR <span><img src="assets/images/simbolo.svg" /> ${n.valor_chaves_para_desbloqueio}</span>
+                                              DESBLOQUEAR <span><img src="assets/images/moeda-ninja.png" /> ${n.valor_chaves_para_desbloqueio}</span>
                                           </a>
                                      </div>
 
@@ -1374,8 +1374,8 @@ pacoteChaves(){
                                  <div class="form-check">
                                     <input class="form-check-input" type="radio" name="pacote" id="pacote${temp}" value="${n.qtd_chaves}" ${checked}>
                                     <label class="form-check-label" for="pacote${temp}">
-                                      <img src="assets/images/simbolo.svg" alt="Comprar ${n.qtd_chaves} Chaves" />  
-                                      ${n.qtd_chaves} Keys 
+                                      <img src="assets/images/moeda-ninja.png" alt="Comprar ${n.qtd_chaves} Gets" />  
+                                      ${n.qtd_chaves} Gets 
                                       <small>À vista por R$ ${n.valor_blr.replace(".",",")}</small>
                                       <span>
                                         <d>ou em até 4X de</d>
@@ -1584,9 +1584,9 @@ planosPromocoes(){
 
                 if(dados.forma_de_cobranca=="Pagamento usando chaves"){
 
-                  var var1 = `${dados.promover_anuncios.valor_destaque_principal_global.replace(".",",")} Keys`;
-                  var var2 = `${dados.promover_anuncios.valor_destaque_principal_categoria.replace(".",",")} Keys`;
-                  var var3 = `${dados.promover_anuncios.valor_destaque_comum_interno.replace(".",",")} Keys`;
+                  var var1 = `${dados.promover_anuncios.valor_destaque_principal_global.replace(".",",")} Gets`;
+                  var var2 = `${dados.promover_anuncios.valor_destaque_principal_categoria.replace(".",",")} Gets`;
+                  var var3 = `${dados.promover_anuncios.valor_destaque_comum_interno.replace(".",",")} Gets`;
 
                 }
                 
@@ -1725,11 +1725,11 @@ selecaoPlanosAnunciosComChaves(id_anuncio, pacoteEscolhido){
 
       if(parseFloat(saldoUsuario)<parseFloat(precoPlano)){
         
-        confirmacao("Oops! Você não tem Keys suficiêntes","Quer promover o seu anúncio? Compre agora um pacote de Keys para promover esse e muitos outros anúncios!","app.comprarChaves()","Comprar");
+        confirmacao("Oops! Você não tem Gets suficiêntes","Quer promover o seu anúncio? Compre agora um pacote de Gets para promover esse e muitos outros anúncios!","app.comprarChaves()","Comprar");
     
     }else{
 
-        confirmacao("Tem certeza que deseja promover esse anúncio?",`Será debitado um valor de <b>${precoPlano} Keys</b> do seu saldo <b>NINJA GET</b>`,`app.models.promoverAnuncioComChaves(${precoPlano})`,"Promover");
+        confirmacao("Tem certeza que deseja promover esse anúncio?",`Será debitado um valor de <b>${precoPlano} Gets</b> do seu saldo <b>NINJA GET</b>`,`app.models.promoverAnuncioComChaves(${precoPlano})`,"Promover");
 
     }
      

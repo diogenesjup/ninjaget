@@ -513,11 +513,11 @@ filtrotabela(){
 
         if(parseFloat(saldoUsuario)<parseFloat(valorAnuncio)){
         
-            confirmacao("Oops! Você não tem Keys suficiêntes","Quer enviar um orçamento para esse cliente? Compre agora um pacote de Keys para desbloquear essa e muitos outros anúncios!","app.comprarChaves()","Comprar");
+            confirmacao("Oops! Você não tem Gets suficiêntes","Quer enviar um orçamento para esse cliente? Compre agora um pacote de Gets para desbloquear essa e muitos outros anúncios!","app.comprarChaves()","Comprar");
         
         }else{
 
-            confirmacao("Tem certeza que deseja desbloquear esse anúncio?",`Será debitado um valor de ${valorAnuncio} Keys do seu saldo <b>NINJA GET</b>`,`app.views.viewDetalheAnuncio(${anuncio},5)`,"Desbloquear");
+            confirmacao("Tem certeza que deseja desbloquear esse anúncio?",`Será debitado um valor de ${valorAnuncio} Gets do seu saldo <b>NINJA GET</b>`,`app.views.viewDetalheAnuncio(${anuncio},5)`,"Desbloquear");
 
         }
 

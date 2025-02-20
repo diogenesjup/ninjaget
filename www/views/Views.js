@@ -41,7 +41,7 @@ class Views{
                            <div class="form-check">
                               <input class="form-check-input" type="radio" name="tipoPerfil" id="tipoServicoPro" value="profissionais">
                               <label class="form-check-label" for="tipoServicoPro">
-                                <img src="assets/images/simbolo.svg" alt="Encontrar profissionais" />  Cadastrar meus serviços
+                                <img src="assets/images/moeda-ninja.png" alt="Encontrar profissionais" />  Cadastrar meus serviços
                               </label>
                            </div>
                            
@@ -138,7 +138,7 @@ class Views{
                   $("header .menu-bar-toggle").html(`
 
                      <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
-                        <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                        <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
                      </a>
                      
                      <a href="javascript:void(0)" onclick="app.abrirFecharMenuProfissional();" title="Abrir o menu">
@@ -339,7 +339,7 @@ class Views{
             $("header .menu-bar-toggle").html(`
 
                   <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
-                     <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                     <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
                   </a>
                   
                   <a href="javascript:void(0)" onclick="app.abrirFecharMenuProfissional();" title="Abrir o menu">
@@ -387,7 +387,7 @@ class Views{
                   $("header .menu-bar-toggle").html(`
 
                         <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
-                           <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                           <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
                         </a>
                         
                         <a href="javascript:void(0)" onclick="app.abrirFecharMenuProfissional();" title="Abrir o menu">
@@ -830,7 +830,7 @@ class Views{
 
                  <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
                     
-                    <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                    <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
 
                  </a>
                  
@@ -897,7 +897,7 @@ class Views{
 
                  <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
                     
-                    <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                    <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
 
                  </a>
                  
@@ -987,7 +987,7 @@ class Views{
 
                  <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
                     
-                    <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                    <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
 
                  </a>
                  
@@ -1043,7 +1043,7 @@ class Views{
 
                  <a class="saldo-atual" href="javascript:void(0)" onclick="app.resumoSaldoProfissional()" title="Seu saldo">
                     
-                    <img src="assets/images/saldo.svg" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
+                    <img src="assets/images/moeda-ninja.png" alt="Seu saldo atual" /> <span id="saldoAtualUsuarioHeader">${localStorage.getItem("saldoPrestadorServico")}</span>
 
                  </a>
                  
@@ -1098,12 +1098,12 @@ class Views{
                   <div class="col-12 wow fadeInUp" data-wow-delay="0.0s" data-wow-duration="0.3s">
                      
                      <h2>
-                       Esse é o seu saldo atual: <img src="assets/images/saldo.svg" style="width:16px;margin-top:-3px;" /> ${localStorage.getItem("saldoPrestadorServico")}
+                       Esse é o seu saldo atual: <img src="assets/images/moeda-ninja.png" style="width:16px;margin-top:-3px;" /> ${localStorage.getItem("saldoPrestadorServico")}
                      </h2>
                      
                      <p style="font-size: 13px;width:80%;margin-bottom:30px;">
-                       O saldo <b>KEYS</b> é o que você utiliza para desbloquear os orçamento dentro da plataforma. 
-                       Você pode comprar novos pacotes de chaves sempre que quiser:
+                       O saldo <b>GETS</b> é o que você utiliza para desbloquear os orçamento dentro da plataforma. 
+                       Você pode comprar novos pacotes de GETS sempre que quiser:
                      </p>
 
                      <p style="font-size: 13px;width:80%;margin-bottom:30px;">
@@ -1111,8 +1111,8 @@ class Views{
                      </p>
 
                      <p>
-                        <a href="javascript:void(0)" onclick="app.comprarChaves();" style="padding-top:6px;" class="btn btn-primary" title="Comprar KEYS">
-                          COMPRAR KEYS
+                        <a href="javascript:void(0)" onclick="app.comprarChaves();" style="padding-top:6px;" class="btn btn-primary" title="Comprar GETS">
+                          COMPRAR GETS
                         </a>
                      </p>
 
@@ -1249,8 +1249,8 @@ class Views{
                       <a href="javascript:void(0)" title="Voltar" onclick="app.viewPrincipalProfissional();">
                          <img src="assets/images/voltar-views.svg" alt="Voltar" />
                       </a> 
-                      Comprar chaves</h2>
-                     <p>Pacote de KEYS para você desbloquear anúncios dentro da plataforma</p>
+                      Comprar GETS</h2>
+                     <p>Pacote de GETS para você desbloquear anúncios dentro da plataforma</p>
 
                      
                      <form id="formPacoteSelecao" method="post" action="javascript:void(0)" onsubmit="app.selecaoPacoteCompra(event)">
@@ -1305,8 +1305,8 @@ class Views{
                       <a href="javascript:void(0)" title="Voltar" onclick="app.comprarChaves();">
                          <img src="assets/images/voltar-views.svg" alt="Voltar" />
                       </a> 
-                      Comprar Keys</h2>
-                      <p>Você está comprando um pacote de chaves</p>
+                      Comprar GETS</h2>
+                      <p>Você está comprando um pacote de GETS</p>
 
                            <div id="pacoteEscolhido"></div>
 
@@ -1534,7 +1534,7 @@ class Views{
                                  </h3>
                                  -->
 
-                                   <p style="text-align:center">Suas Keys serão liberadas meditante confirmação do pagamento do PIX.</p>
+                                   <p style="text-align:center">Suas GETS serão liberadas meditante confirmação do pagamento do PIX.</p>
 
                                    <p>
                                     <img src="https://api.qrserver.com/v1/create-qr-code/?size=350x350&data=${encodedPayload}" style="width: 80%;height: auto;margin: 20px;border-radius: 8px;" /> 
@@ -1627,10 +1627,10 @@ class Views{
                            
                                        <h2 style="text-align:center">
                                           <i class="fa fa-check-circle fa-3x" aria-hidden="true" style="color:#8BC34A;"></i><br>
-                                          Crédito de chaves comprado com sucesso
+                                          Crédito de GETS comprado com sucesso
                                         </h2>
                                       
-                                        <p style="text-align:center">Pode levar <b>até 30 minutos</b> para que as suas chaves fiquem disponíveis para uso.</p>
+                                        <p style="text-align:center">Pode levar <b>até 30 minutos</b> para que as suas GETS fiquem disponíveis para uso.</p>
                                         <!--
                                           <p style="text-align:center">
                                             Continuar para o desbloqueio da solicitação de orçamento:<br>
@@ -2326,10 +2326,10 @@ class Views{
 
                                   <p>
                                     Compartilhe o aplicativo <b>Ninja Get</b> com seus amigos e contatos 
-                                    e ganhe chaves para desbloquear orçamentos!
+                                    e ganhe GETS para desbloquear orçamentos!
                                   </p>
                                   <p>
-                                    Se as pessoas que você indicou, se cadastrarem, você ganha na hora até 100 chaves!!
+                                    Se as pessoas que você indicou, se cadastrarem, você ganha na hora até 100 GETS!!
                                   </p>
 
                                   <div class="social">
@@ -2621,7 +2621,7 @@ class Views{
 
                      <div class="form-group link-apoio text-center" style="padding-top:13px;">
                         <a href="javascript:void(0)" title="Versão 1.0.3" style="color:#747474;text-decoration:none !important;font-size:13px;">
-                              Versão 1.0.4
+                              Versão 1.0.5
                         </a>
                      </div>
                      

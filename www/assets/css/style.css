@@ -213,14 +213,14 @@ footer .menu-2 img{
   display: block;
     margin-left: auto;
     /* margin-right: auto; */
-    margin-top: -58px;
+    margin-top: -48px;
     margin-bottom: -3px;
-    width: 72px;
+    width: 58px;
     max-width: 100px;
     left: 50%;
     height: auto;
     position: absolute;
-    margin-left: -36px;
+    margin-left: -29px;
     top: 0;
 }
 
@@ -584,7 +584,7 @@ section#content .view-3{
 .loop-novos-servicos .caixa-destaque-servicos{
     position: relative;
     display: block;
-    background: #f2f2f2;
+    background: #f9f9f9;
     width: 95%;
     border-radius: 5px;
     padding: 20px;
