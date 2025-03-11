@@ -2437,8 +2437,8 @@ class Views{
                                    </a>
                                 </p>
                                 <p>
-                                   <a href="javascript:void(0)" id="actionWhatsApp" target="_system" title="Whatsapp" class="btn btn-default">
-                                      Whatsapp
+                                   <a href="javascript:void(0)" id="actionWhatsApp" title="WhatsApp" class="btn btn-default">
+                                      WhatsApp
                                    </a>
                                 </p>
                                 
@@ -2620,8 +2620,8 @@ class Views{
                      </form>
 
                      <div class="form-group link-apoio text-center" style="padding-top:13px;">
-                        <a href="javascript:void(0)" title="Versão 1.0.7" style="color:#747474;text-decoration:none !important;font-size:13px;">
-                              Versão 1.0.7
+                        <a href="javascript:void(0)" title="Versão 1.0.8" style="color:#747474;text-decoration:none !important;font-size:13px;">
+                              Versão 1.0.8
                         </a>
                      </div>
                      
