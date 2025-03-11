@@ -1295,7 +1295,7 @@ carregarDetalheAtendimento(idAnuncio,acao){
               $(".body-autor h4").html(`${dados.orcamentos[0].titulo_origin}`);
 
               $("#actionLigacao").attr("href",`tel:${dados.orcamentos[0].celular}`);
-              $("#actionWhatsApp").attr("onclick",`abrirUrl('https://api.whatsapp.com/send?l=pt_BR&phone=55${dados.orcamentos[0].celular}'`);
+              $("#actionWhatsApp").attr("onclick",`abrirUrl('https://api.whatsapp.com/send?l=pt_BR&phone=55${dados.orcamentos[0].celular}')`);
 
             }else{
               
