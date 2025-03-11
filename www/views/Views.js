@@ -2334,15 +2334,15 @@ class Views{
 
                                   <div class="social">
                                       
-                                      <a href="javascript:void(0)" onclick="abrirUrl('https://twitter.com/intent/tweet?text=Conheça o aplicativo Ninja Get')" title="Compartilhar no Twitter">
+                                      <a href="javascript:void(0)" onclick="abrirUrl('https://twitter.com/intent/tweet?text=Conheça o aplicativo Ninja Get https://ninjaget.com.br/')" title="Compartilhar no Twitter">
                                          <i class="fa fa-twitter"></i>
                                       </a>
 
-                                      <a href="javascript:void(0)" onclick="abrirUrl('https://api.whatsapp.com/send?l=pt_BR&text=Conheça o aplicativo Ninja Get')" title="Compartilhar por WhatsApp">
+                                      <a href="javascript:void(0)" onclick="abrirUrl('https://api.whatsapp.com/send?l=pt_BR&text=Conheça o aplicativo Ninja Get https://ninjaget.com.br/')" title="Compartilhar por WhatsApp">
                                          <i class="fa fa-whatsapp"></i>
                                       </a>
 
-                                      <a href="javascript:void(0)" onclick="abrirUrl('https://www.facebook.com/sharer/sharer.php?u=Conheça o aplicativo Ninja Get')" title="Compartilhar no Facebook">
+                                      <a href="javascript:void(0)" onclick="abrirUrl('https://www.facebook.com/sharer/sharer.php?u=Conheça o aplicativo Ninja Get https://ninjaget.com.br/')" title="Compartilhar no Facebook">
                                          <i class="fa fa-facebook"></i>
                                       </a>
 
@@ -2432,12 +2432,12 @@ class Views{
                          <div class="actions-contato">
                           
                                 <p>
-                                   <a href="" id="actionLigacao" target="_system" title="Ligar no telefone" class="btn btn-default">
+                                   <a href="javascript:void(0)" id="actionLigacao" target="_system" title="Ligar no telefone" class="btn btn-default">
                                       Ligar no telefone
                                    </a>
                                 </p>
                                 <p>
-                                   <a href="" id="actionWhatsApp" target="_system" title="Whatsapp" class="btn btn-default">
+                                   <a href="javascript:void(0)" id="actionWhatsApp" target="_system" title="Whatsapp" class="btn btn-default">
                                       Whatsapp
                                    </a>
                                 </p>
@@ -2620,8 +2620,8 @@ class Views{
                      </form>
 
                      <div class="form-group link-apoio text-center" style="padding-top:13px;">
-                        <a href="javascript:void(0)" title="Versão 1.0.3" style="color:#747474;text-decoration:none !important;font-size:13px;">
-                              Versão 1.0.5
+                        <a href="javascript:void(0)" title="Versão 1.0.7" style="color:#747474;text-decoration:none !important;font-size:13px;">
+                              Versão 1.0.7
                         </a>
                      </div>
                      
